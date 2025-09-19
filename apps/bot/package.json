@@ -1,0 +1,12 @@
+{
+  "name": "bot",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon --watch src --exec \"pnpm exec ts-node -r dotenv/config src/index.ts\""
+  },
+  "dependencies": {
+    "@subtitle-bot/shared": "workspace:*",
+    "axios": "^1.12.2",
+    "grammy": "^1.27.0"
+  }
+}
